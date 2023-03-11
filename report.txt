@@ -1,0 +1,105 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 11 issues that require attention
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+File: C:\Users\ETAPTA\PycharmProjects\HopperProject\VAE\vae_gumbel_softmax_edited_last-batch(5modes).py
+--------------------------------------------------------------------------------
+C:\Users\ETAPTA\PycharmProjects\HopperProject\VAE\vae_gumbel_softmax_edited_last-batch(5modes).py:39:16: ERROR: Using member tf.contrib.distributions in deprecated module tf.contrib. tf.contrib.distributions cannot be converted automatically. tf.contrib will not be distributed with TensorFlow 2.0, please consider an alternative in non-contrib TensorFlow, a community-maintained repository such as tensorflow/addons, or fork the required code.
+C:\Users\ETAPTA\PycharmProjects\HopperProject\VAE\vae_gumbel_softmax_edited_last-batch(5modes).py:537:35: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+C:\Users\ETAPTA\PycharmProjects\HopperProject\VAE\vae_gumbel_softmax_edited_last-batch(5modes).py:540:35: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+C:\Users\ETAPTA\PycharmProjects\HopperProject\VAE\vae_gumbel_softmax_edited_last-batch(5modes).py:544:35: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+C:\Users\ETAPTA\PycharmProjects\HopperProject\VAE\vae_gumbel_softmax_edited_last-batch(5modes).py:547:35: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+C:\Users\ETAPTA\PycharmProjects\HopperProject\VAE\vae_gumbel_softmax_edited_last-batch(5modes).py:551:35: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+C:\Users\ETAPTA\PycharmProjects\HopperProject\VAE\vae_gumbel_softmax_edited_last-batch(5modes).py:554:35: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+C:\Users\ETAPTA\PycharmProjects\HopperProject\VAE\vae_gumbel_softmax_edited_last-batch(5modes).py:731:8: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+C:\Users\ETAPTA\PycharmProjects\HopperProject\VAE\vae_gumbel_softmax_edited_last-batch(5modes).py:776:8: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+C:\Users\ETAPTA\PycharmProjects\HopperProject\VAE\vae_gumbel_softmax_edited_last-batch(5modes).py:830:8: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+C:\Users\ETAPTA\PycharmProjects\HopperProject\VAE\vae_gumbel_softmax_edited_last-batch(5modes).py:875:8: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\ETAPTA\\PycharmProjects\\HopperProject\\VAE\\vae_gumbel_softmax_edited_last-batch(5modes).py'
+ outputting to 'C:\\Users\\ETAPTA\\PycharmProjects\\HopperProject\\VAE\\vae_gumbel_softmax_edited_last-batch(5modes)_v2.py'
+--------------------------------------------------------------------------------
+
+39:16: ERROR: Using member tf.contrib.distributions in deprecated module tf.contrib. tf.contrib.distributions cannot be converted automatically. tf.contrib will not be distributed with TensorFlow 2.0, please consider an alternative in non-contrib TensorFlow, a community-maintained repository such as tensorflow/addons, or fork the required code.
+48:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+54:8: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+97:11: INFO: Renamed 'tf.random_uniform' to 'tf.random.uniform'
+101:11: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+176:8: INFO: Renamed 'tf.random_uniform' to 'tf.random.uniform'
+177:12: INFO: Renamed 'tf.log' to 'tf.math.log'
+177:20: INFO: Renamed 'tf.log' to 'tf.math.log'
+181:51: INFO: Added keywords to args of function 'tf.shape'
+186:12: INFO: Added keywords to args of function 'tf.shape'
+187:37: INFO: Added keywords to args of function 'tf.reduce_max'
+187:37: INFO: Renamed keyword argument for tf.reduce_max from keep_dims to keepdims
+231:18: INFO: Renamed 'tf.log' to 'tf.math.log'
+265:20: INFO: Added keywords to args of function 'tf.shape'
+266:16: INFO: Added keywords to args of function 'tf.shape'
+307:11: INFO: Added keywords to args of function 'tf.reduce_mean'
+310:15: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+318:11: INFO: Renamed 'tf.log' to 'tf.math.log'
+322:9: INFO: Added keywords to args of function 'tf.reduce_sum'
+326:11: INFO: Added keywords to args of function 'tf.reduce_sum'
+327:11: INFO: Added keywords to args of function 'tf.reduce_mean'
+328:15: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+372:18: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+373:20: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+374:13: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+375:15: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+376:13: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+395:15: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+395:50: INFO: Renamed 'tf.local_variables_initializer' to 'tf.compat.v1.local_variables_initializer'
+396:11: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+397:12: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+399:16: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+408:14: INFO: Renamed 'tf.train.start_queue_runners' to 'tf.compat.v1.train.start_queue_runners'
+537:35: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+540:35: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+544:35: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+547:35: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+551:35: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+554:35: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+718:14: INFO: Renamed 'tf.train.NewCheckpointReader' to 'tf.compat.v1.train.NewCheckpointReader'
+726:11: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+727:12: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+729:9: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+731:8: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+763:14: INFO: Renamed 'tf.train.NewCheckpointReader' to 'tf.compat.v1.train.NewCheckpointReader'
+771:11: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+772:13: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+774:9: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+776:8: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+817:14: INFO: Renamed 'tf.train.NewCheckpointReader' to 'tf.compat.v1.train.NewCheckpointReader'
+825:11: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+826:12: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+828:9: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+830:8: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+862:14: INFO: Renamed 'tf.train.NewCheckpointReader' to 'tf.compat.v1.train.NewCheckpointReader'
+870:11: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+871:13: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+873:9: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+875:8: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+892:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+892:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+909:13: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+909:13: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+927:20: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+939:22: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+992:20: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+995:16: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+1077:7: INFO: Renamed 'tf.gfile.Exists' to 'tf.io.gfile.exists'
+1078:8: INFO: Renamed 'tf.gfile.DeleteRecursively' to 'tf.io.gfile.rmtree'
+1079:4: INFO: Renamed 'tf.gfile.MakeDirs' to 'tf.io.gfile.makedirs'
+1080:4: INFO: Renamed 'tf.gfile.MakeDirs' to 'tf.io.gfile.makedirs'
+1081:4: INFO: Renamed 'tf.gfile.MakeDirs' to 'tf.io.gfile.makedirs'
+1082:4: INFO: Renamed 'tf.gfile.MakeDirs' to 'tf.io.gfile.makedirs'
+--------------------------------------------------------------------------------
+
